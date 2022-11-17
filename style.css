@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,600;1,400;1,700&family=Fragment+Mono:ital@0;1&family=Oswald:wght@200;300;400;500;600;700&family=Secular+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,600;1,400;1,700&family=Fragment+Mono:ital@0;1&family=Secular+One&display=swap');
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.profile{
+   
+    position: left;
+    padding-left: 1vw;
+    padding-top: 8vw;
+    padding-bottom: 30vw;
+}
+header {
+  width:100vw;
+  height: 13vw;
+    background-image:url("profile.png"), url('brain.jpg'), url('header.jpeg'), url('headerright.JPG') ;
+    background-position: left, center, left, right;
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 10vw,20vw, 50vw, 50vw;
+    background-color: rgb(2, 8, 58);
+    background-position: 3vw, 40vw, 0vw, 50vw; 
+}
+h1{
+  float: left;
+  padding-top: 10.1vw;
+  padding-left: 3vw;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 1.5vw;
+  color: white; 
+}
+/* h2-h7:Setting left bar content based on the types */
+h2{
+  float:left;
+  width:100%;
+  text-align:left;
+  font-family:'Oswald', sans-serif;
+  color: #28ACFFFF;
+  font-size: 0.7vw;
+  width:17vw;
+  height: 9vw;
+  padding:0.3vw;
+  border: 0.5vw  gray;
+  border-radius: 0.9vw;
+  border-style:inset;
+  align-items: flex-start;
+  margin: 1vw ;
+  background-image: url("connection.jpg");
+  background-size: 100%;  
+  }
+h3{
+  float:left;
+  text-align:left;
+  font-family: 'Oswald', sans-serif;
+  color: #28ACFFFF;
+  font-size: 0.7vw;
+  width:17vw;
+  height: 13vw;
+  padding:0.3vw;
+  border: 0.5vw  gray;
+  border-radius: 0.9vw;
+  border-style:inset;
+  align-items: flex-start;
+  margin: 1vw ;
+  background-image: url("Role.jpg");
+  background-repeat: no-repeat;
+  background-size: 16vw;  
+  padding-left: 2.9vw;
+  padding-top: 1.2vw;
+  line-height: 2.7vw;
+}
+h4{
+  float:left;
+  width:19vw;
+  height: 0.1vw;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5vw;
+  color: whitesmoke;
+  
+
+}
+h5{
+  float:left;
+  text-align:center;
+  font-family:'Oswald', sans-serif;
+  color: black;
+  font-size: 0.6vw;
+  width:17vw;
+  height: 15vw;
+  padding:0.3vw;
+  border: 0.5vw  gray;
+  border-radius: 0.9vw;
+  border-style:inset;
+  align-items: flex-start;
+  margin: 1vw ;
+  background-image: url("Tools.jpg");
+  background-repeat: no-repeat;
+  background-size: 16.2vw;  
+  padding-left: 0.9vw;
+  padding-top: 1.9vw;
+  line-height: 1.7vw;
+}
+h6{
+  float:left;
+  text-align:center;
+  font-family:'Oswald', sans-serif;
+  color: black;
+  font-size: 0.6vw;
+  width:17vw;
+  height: 12vw;
+  padding:0.3vw;
+  align-items: flex-start;
+  margin: 1vw ;
+  background-image: url('canvas.jpg');
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: 16vw;
+  padding-top: 1vw;
+  line-height: 1.2vw;
+}
+h7{
+  float:left;
+  text-align:center;
+  font-family: 'Asap Condensed', sans-serif;
+  color: black;
+  font-size: 0.7vw;
+  width:17vw;
+  height: 22vw;
+  padding:0.3vw;
+  align-items: flex-start;
+  margin: 1vw ;
+  background-image: url('skill.jpg');
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: 16vw;
+  padding-top: 1vw;
+  line-height: 1vw;
+}
+h8{
+  float:left;
+  text-align:Left;
+  font-family: 'Secular One', sans-serif;
+  font-style: Bold;
+  color: rgb(49, 154, 240);
+  font-size: 19pt;
+  width:5vw;
+  height: auto;
+  padding:0.3vw; 
+}
+h9{
+  text-align:left;
+  font-family: 'Secular One', sans-serif;
+  color:black;
+  font-size: 16pt;
+  width:5vw;
+  height:auto;
+  line-height: 2vw;
+}
+
+  
+
+section{
+  width:100%;
+  min-height:auto
+  float:left;
+  position:relative
+}
+
+.Leftbar{
+
+  height:100vw;
+  width:20vw;
+  float:left;
+  position:absolute;
+  /* Alignment for left bar area */
+
+}
+.Leftbar.fixy{
+  position:fixed; 
+  top:0;
+  left:0;
+  /* Alignment for left bar area */
+}
+
+.Leftbar.bottom{
+  position:absolute;
+  bottom:0;
+  /* Alignment for left bar area */
+}
+
+.intro{
+    background-image:url(skills.jpg);
+    background-size: 18.5vw;
+    background-repeat: no-repeat;
+  /* Setting left bar background */ 
+}
+
+.Experience{
+  float:right;
+  width:100%;
+  padding-left: 21vw;
+  /* Setting for heading */
+}
+.management{
+  float:Left;
+  width:50%;
+  padding-left: 21vw;
+  /* Setting for sub-heading */
+ 
+}
+.communication{
+  float:right;
+  width:50%;
+  padding-right: 15vw;
+ /* Setting for sub-heading */
+}
+p{
+  text-align: left;
+  font-size:15pt;
+  padding-top: 1vw;
+  line-height: 2vw;
+  /* Setting for Paragraph */
+}
